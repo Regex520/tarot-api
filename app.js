@@ -154,3 +154,5 @@ const port = process.env.PORT || 8000;
 app.listen(port, () => {
   console.log("RWS API Server now running on port", port);
 });
+
+precess exit(0);
