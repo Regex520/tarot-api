@@ -149,7 +149,7 @@ router.use((err, _req, res) => {
   res.json({ error: { status: err.status, message: err.message } });
 });
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 80;
 
 app.listen(port, () => {
   console.log("RWS API Server now running on port", port);
